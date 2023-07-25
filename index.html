@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<!-- tailwind and daisyui -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- color -->
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+        }
+      }
+    }
+  }
+</script>
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+<!-- font family -->
+<style>
+  .font-lato{
+    font-family: 'Lato', sans-serif;
+  }
+</style>
+</head>
+<body>
+  <header class="md:container md:mx-auto">-
+    <nav >
+      <!-- for phone nav  -->
+     <div class="block sm:hidden">
+      <div class="navbar  bg-gradient-to-r lg:hidden   sm:visible bg-base-100">
+        <div class="flex-1 justify-left items-center">
+          <img class="h-[40px] w-[38px]" src="images/logo.png" alt="">
+          <a class=" text-black font-extrabold btn-ghost normal-case text-xl">Fruit Burst</a>
+        </div>
+
+        <div class="flex-none">
+          <button class="btn btn-square btn-ghost">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          </button>
+          
+
+        </div>
+        
+       
+      </div>
+     </div>
+      <!-- for large device -->
+      <div class=" hidden sm:block">
+        <div class="navbar rounded-3xl bg-gradient-to-r  from-orange-500 to-orange-600  bg-base-100">
+          <div class="flex-1" >
+            <ul class="flex text-stone-50 justify-center items-center gap-3">
+              <li>Home</li>
+              <li>About Us</li>
+              <li> Shop</li>
+              <li> All Fruits</li>
+            </ul>
+          </div>
+          <div class="flex-1 justify-center items-center">
+            <img class="h-[40px] w-[38px]" src="images/logo.png" alt="">
+            <a class=" text-stone-50 font-extrabold btn-ghost normal-case text-xl">Fruit Burst</a>
+          </div>
+          <div class="flex-none gap-2">
+            <div class="form-control">
+              <input type="text" placeholder="Search" class="input input-bordered rounded-3xl w-24 md:w-auto" />
+            </div>
+            
+  
+           
+          </div>
+        </div>
+      </div>
+      
+      
+    </nav>
+    <!-- hero section -->
+
+<section>
+
+</section>
+
+  </header>
+  <main>
+
+  </main>
+  
+</body>
+</html>
